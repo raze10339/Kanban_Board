@@ -39,6 +39,6 @@ This project is licensed under the MIT License.
 
 
 
-## ## The URL of the GitHub repository 
+## The URL of the GitHub repository 
 
 https://github.com/raze10339/Kanban_Board.git
