@@ -2,11 +2,12 @@ import axios from 'axios';
 
 const retrieveUsers = async () => {
   try {
-    const res = await axios.get('/api/user')
+    const res = await axios.get('/api/users')
 
     if(res.status !== 200) {
       throw new Error('invalid user API response, check network tab!');
     }
+    console.log(res.data);
 
     return res.data;
 
